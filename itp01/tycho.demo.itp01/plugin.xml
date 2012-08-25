@@ -49,6 +49,15 @@
                toolbarPath="sampleGroup"
                tooltip="Hello, Eclipse world">
          </action>
+         <action
+               class="tycho.demo.itp01.actions.SampleActionXtend"
+               icon="icons/sample.gif"
+               id="tycho.demo.itp01.actions.SampleActionXtend"
+               label="&amp;Sample Action Xtend"
+               menubarPath="sampleMenu/sampleGroup"
+               toolbarPath="sampleGroup"
+               tooltip="Hello, Eclipse world from Xtend">
+         </action>
       </actionSet>
    </extension>
 
